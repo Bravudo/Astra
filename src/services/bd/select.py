@@ -23,6 +23,8 @@ class select:
         try:
             query = "SELECT join_number FROM usuario WHERE discord_id = $1"
             number = await conn.fetchval(query, user_id)
+            if number == None:
+                  return None
             return int(number)
     
         except Exception as e:

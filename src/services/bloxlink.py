@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from src.embeds.registerlog import send_register_embed 
+from src.embeds.register import send_register_embed 
 from src.services.bd.config import Database
 import os
 import requests
