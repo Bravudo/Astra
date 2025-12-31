@@ -30,7 +30,7 @@ async def send_register_embed(channel, user_id, join_number, roblox_id, roblox_u
 
 async def send_register_button_embed(ctx, view):
     embed = discord.Embed(
-        title="Veficação Astryn",
+        title="Verificação Astryn",
         description=":comet: O último passo para se tornar um cidadão de Astryn é nossa verificação."
         "\n\n☀️ **Clique** no botão abaixo e descubra se você é digno de se juntar a nós.",
         color=discord.Color.from_rgb(0, 102, 255)
